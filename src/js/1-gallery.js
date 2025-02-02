@@ -95,6 +95,7 @@ function imagesTemplate(images) {
     return images.map(imageTemplate).join('');
 }
 
+
 // container.addEventListener('click', (e) => {
 //     e.preventDefault(); 
 //     const galleryLink = e.target.closest('.gallery-link');
@@ -115,3 +116,7 @@ function imagesTemplate(images) {
 //     const modal = basicLightbox.create(markup);
 //     modal.show();
 // };
+
+
+
+
