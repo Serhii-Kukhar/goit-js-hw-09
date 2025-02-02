@@ -31,6 +31,7 @@ function initPage() {
 }
 
 
+
 //вішаю подію сабміт
 refs.form.addEventListener('submit', e => {
     e.preventDefault();
@@ -65,7 +66,7 @@ refs.form.addEventListener('submit', e => {
         }
     }
 
-
+initPage();
 
 
 
